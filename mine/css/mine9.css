@@ -1,0 +1,141 @@
+.mine9{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: #fff;
+	width: 100%;
+	height: 17.7866rem;
+}
+
+header{
+	width: 10rem;
+	height: 1.1733rem;
+	background: #df3031;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header>div{
+	height: 1.1733rem;
+	line-height: 1.1733rem;
+}
+header>div:nth-child(1){
+	width: 1rem;	
+}
+header>div:nth-child(1)>a{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.4466rem;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin: 0.2rem auto 0.2rem;
+}
+header>div:nth-child(2){
+	width: 7rem;
+}
+header>div:nth-child(2)>p{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 0.2666rem;
+	padding-left: 1rem;
+	font-size: 0.3866rem;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+}
+header>div:nth-child(3){
+	width: 2rem;
+}
+header>div:nth-child(3)>a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-size: 0.3866rem;
+	letter-spacing: 2px;
+}
+.mine9-mine-top{
+	position: absolute;
+	top: 1.1733rem;
+	left: 0;
+}
+.mine9-mine-top>img{
+	width: 10rem;
+}
+.mine9-btn1{
+	width: 9.2rem;
+	height: 1.0666rem;
+	line-height: 1.0666rem;
+	background: #f9f9f9;
+	font-size: 0.44rem;
+	text-align: center;
+	color: #333;
+	margin: 0.3333rem auto 0.1333rem;
+}
+.mine9-btn2{
+	width: 9.2rem;
+	height: 1.0666rem;
+	line-height: 1.0666rem;
+	background: #f9f9f9;
+	font-size: 0.44rem;
+	text-align: center;
+	color: #333;
+	margin: 0 auto;
+}
+.mine9-main{
+	width: 10rem;
+	background: #fff;
+	position: absolute;
+	top: 8.6133rem;
+	left: 0;
+	bottom: 0;
+	overflow: auto;
+}
+.mine9-main>p{
+	margin-left: 0.2933rem;
+	height: 0.9333rem;
+	line-height: 0.9333rem;
+	font-size: 0.32rem;
+	color: #b6b5b5;
+}
+.mine9-main>a>p{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 0.36rem;
+	margin-left: 0.3066rem;
+	border-top: 1px solid #edeff3;
+	position: relative;
+}
+.mine9-main>a>p>i{
+	font-style: normal;
+	position: absolute;
+	top: 0;
+	right: 0.2133rem;
+	color: #909090;
+}
+.mine9-main>a>p>i>img{
+	height: 0.3066rem;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

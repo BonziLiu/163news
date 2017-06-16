@@ -1,0 +1,25 @@
+
+
+	<div class="play-main">
+		<a href="javascript:;">
+			<p>{{newses[5].title}}</p>
+			<img src="{{newses[5].img}}" />
+			<i>{{newses[5].type}}</i>
+			<span>{{newses[5].attention}}参与</span>
+			<div>{{newses[5].question}}</div>
+			
+		</a>
+	</div>
+	
+	<div  ng-repeat='n in arr5' ui-sref="/details" >
+		<div data-id="{{n.id}}" ng-click="details(n.id)" class="news-main1">
+			<img ng-src="{{n.img}}" data-img="{{n.img.length}}" />
+			<div>
+				<p>{{n.title}}</p>
+				<span>{{n.content}}</span>
+			</div>
+		</div>
+		
+	</div>
+
+	

@@ -1,0 +1,23 @@
+
+
+	<div class="play-main">
+		<a href="javascript:;">
+			<p>{{newses[0].title}}</p>
+			<img src="{{newses[0].img}}" />
+			<i>{{newses[0].type}}</i>
+			<span>{{newses[0].attention}}参与</span>
+			<div>{{newses[0].question}}</div>
+			
+		</a>
+	</div>
+	
+	<div class="news-main1" ng-repeat='n in req'>
+		<img ng-src="{{n.picUrl}}" data-img="{{n.picUrl.length}}"/>
+		<div>
+			<p>{{n.title}}</p>
+			<span>{{n.description}}</span>
+		</div>
+	</div>
+	
+
+	

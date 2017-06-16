@@ -1,0 +1,32 @@
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,dl,dd,dt,p{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color:#333;
+	/*-webkit-tap-highlight-color:transparent*/
+
+}
+
+ul,li,ol{
+	list-style: none;
+}
+body{
+	background-color: #fff;
+	font-family: "微软雅黑";
+	color:#333;
+
+}
+
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+	overflow: hidden;
+	height: 0;
+	zoom: 1;
+	
+}

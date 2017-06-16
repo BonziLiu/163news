@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/details.css"/>
+<script src="../lib/flexible.js" type="text/javascript" charset="utf-8"></script>
+<script src="../lib/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+<meta name="viewport" content="width=device-width">
+<script src="../lib/bmob-min.js"></script>
+<script src="../lib/bmob.js"></script>
+<script src="../lib/bmobSocketIo-min.js"></script>
+<script src="../lib/bmobSocketIo.js"></script>
+<link rel="stylesheet" type="text/css" href="css/details.css"/>
+<script type="text/javascript">
+window.onload = function(){
+		 Bmob.initialize("01f860d1ceab5ae73c5af4bda51a49ac", "d651691d242b691826290c4a7cadf334");
+		var ab = window.location.search;
+	    var c = parseInt(ab.substr(4));
+	    var news = Bmob.Object.extend('news');
+		var query = new Bmob.Query(news); 
+		query.equalTo("newsId", c);
+		query.find({
+	    success:function(results) {
+	       	console.log("共查询到 " + results.length + " 条记录");
+	        // 循环处理查询到的数据
+	        for (var i = 0; i < results.length; i++) {
+	        var objc = results[i];
+			var temp={
+	       		title:objc.attributes.newsTitle,
+	       		img:objc.attributes.newsImg,
+	       		img1:objc.attributes.newsImg1,
+	       		img2:objc.attributes.newsImg2,
+	       		content:objc.attributes.newsContent,
+	       		content1:objc.attributes.newsContent1,
+	       		content2:objc.attributes.newsContent2
+	       }
+			var con = 
+				'<b>'+temp.title+'</b>'+'<img src='+temp.img1+'>'+'<p>'+temp.content+'</p>'+'<img src='+temp.img2+'>'+'<p>'+'<p>'+temp.content1+'</p>'+'<p>'+temp.content2+'</p>'
+			
+			document.getElementById('ap1').innerHTML = con;
+			console.log(temp)
+	        }
+	    },
+	    error: function(error) {
+	    	    console.log(error);
+	        alert("查询失败: " + error.code + " " + error.message);
+	    }
+});
+}
+
+</script>
+	
+</head>
+<body>
+<header>
+	<a href=href="#" onClick="javascript :history.back(-1);">&lt;</a>
+	
+	<div id="ap1" class="details-main">
+		
+	</div>
+</header>
+	
+</body>
+</html>

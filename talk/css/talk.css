@@ -1,0 +1,366 @@
+
+/*talk1.css*/
+header{
+	width: 10rem;
+	height: 1.1733rem;
+	display: flex;
+	background: #df3031;
+}
+header>a{
+	width: 1rem;
+}
+header>a>img{
+	width: 0.5333rem;
+	display: block;
+	margin: 0.32rem auto;
+}
+header>div{
+	width: 8rem;
+	height: 0.7466rem;
+}
+header>div>div{	
+	width: 5.2rem;
+	height: 0.7466rem;
+	display: flex;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 20px;
+	margin: 0.2133rem auto;
+}
+header>div>div>div{
+	width: 1.7333rem;
+	height: 0.7466rem;
+	line-height: 0.7466rem;
+	font-size: 0.3466rem;
+	color: #fff;	
+	text-align: center;
+	border-radius: 20px;
+}
+.talk-color{
+	color: #df3031;
+	background: #fff;
+}
+.talk-talk{
+	width: 10rem;
+	background: #eef1f5;
+	position: absolute;
+	left: 0;
+	top: 1.1733rem;
+	bottom: 1.2933rem;
+	overflow: auto;
+}
+.talk-top{
+	width: 100%;
+	height: 2.4rem;
+	background: #fff;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	transition: height 0.6s;
+}
+.talk-top.active{
+	height: 7.2rem;
+}
+.talk-top>div{
+	width: 20%;
+}
+.talk-top>div>a{
+	width: 100%;
+}
+.talk-top>div>a>figure{
+	display: block;
+	width: 100%;
+	margin: 0.3733rem auto 0.32rem;
+}
+.talk-top>div>a>figure>img{
+	display: block;
+	width: 1.12rem;
+	margin: 0 auto 0.24rem;
+}
+.talk-top>div>a>figure>figcaption{
+	font-size: 0.3066rem;
+	text-align: center;
+}
+.talk-top-list{
+	width: 100%;
+	height: 0.52rem;
+	background: #fff;
+}
+.talk-a{
+	display: block;
+	margin: 0 auto;
+	width: 0.4rem;
+	transition:  0.6s;
+}
+.talk-a.rows{
+	transform: rotateZ(180deg);
+	transition:  0.6s;
+}
+.talk-main{
+	/*margin-top: 0.2666rem;*/
+	width: 100%;
+	padding-top: 0.1px;
+}
+.talk-main-news{	
+	background: #fff;
+	width: 100%;
+	height: 8.7333rem;
+	margin-top: 0.2666rem;
+	position: relative;
+}
+.talk-main-head{
+	width: 1.19rem;
+	height: 1.19rem;
+	background: #fff;
+	border-radius: 50%;
+	padding: 0.0666rem;
+	position: absolute;
+	left: 0.36rem;
+	top: 0.36rem;
+	z-index: 99;
+	
+}
+.talk-main-head>img{
+	display: block;
+	width: 1.0666rem;
+	height: 1.0666rem;
+	border-radius: 50%;
+	position: relative;
+	
+}
+.talk-main-news>h5{
+	font-size: 0.32rem;
+	position: absolute;
+	top: 0.4333rem;
+	left: 1.7333rem;
+}
+.talk-main-news>h5>span{
+	color: #959595;
+}
+.talk-main-news>img{
+	width: 100%;
+	height: 4.6666rem;
+	position: absolute;
+	top: 1.0666rem;
+	left: 0;
+}
+.talk-main-news>p{
+	width: 9.2rem;
+	position: absolute;
+	top: 6.1333rem;
+	font-size: 0.4133rem;
+	margin-left: 0.4rem;
+}
+.talk-main-news>i{
+	font-style: normal;
+	font-size: 0.3066rem;
+	color: #959595;
+	position: absolute;
+	top: 7.7733rem;
+	left: 0.4rem;
+}
+.talk-main-news>i>span:nth-child(1){
+	color: #417cc7;
+}
+.talk-main-news>a{
+	width: 1.8133rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	border-radius: 20px;
+	background: #df3031;
+	font-size: 0.3466rem;
+	color: #fff;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 0.4rem;
+}
+
+/*talk2.css*/
+
+.talk-talk2{
+	width: 10rem;
+	height: 6.1333rem;
+	background: #fff;
+	margin-bottom: 0.2666rem;
+	position: relative;
+}
+.talk-talk2>h4{
+	display: block;
+	width: 9.44rem;
+	height: 1.2266rem;
+	line-height: 1.2266rem;
+	font-size: 0.4133rem;
+	margin-left: 0.2666rem;
+	border-bottom: 1px dashed #d1d1d1;
+}
+.talk2-img{
+	width: 9.4933rem;
+	height: 3.6rem;
+	margin-left: 0.2666rem;
+	background: blanchedalmond;
+	display: flex;
+	justify-content: space-between;
+}
+.talk2-img>img{
+	width: 3rem;
+}
+.talk-talk2>i{
+	font-style: normal;
+	font-size: 0.32rem;
+	color: #959595;
+	position: absolute;
+	bottom: 0.4666rem;
+	left: 0.2666rem;
+}
+.talk-talk2>i>span:nth-child(1){
+	color: #417cc7;
+}
+.talk-talk2>a{
+	width: 1.8133rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	border-radius: 20px;
+	background: #df3031;
+	font-size: 0.3466rem;
+	color: #fff;
+	position: absolute;
+	bottom: 0.2666rem;
+	right: 0.2666rem;
+}
+.talk2-msg{
+	width: 9.4666rem;
+	height: 2.9333rem;
+}
+.talk2-msg>p{
+	width: 9.4666rem;
+	height: 1.3333rem;
+	line-height: 1.3333rem;
+	margin-left: 0.2666rem;
+	font-size: 0.4133rem;
+	/*background: red;*/
+	position: relative;
+}
+.talk2-msg>p>img{
+	display: inline-block;
+	width: 0.6666rem;
+	height: 0.6666rem;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.talk2-msg>p>span:nth-child(3){
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/*talk3.css*/
+
+.talk-talk3-top{
+	width: 100%;
+	height: 3.4666rem;
+	background: #fff;	
+	padding-top: 0.1px;	
+}
+.talk-talk3-top>p{
+	font-size: 0.3466rem;
+	width: 6.1333rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color: #333;
+	text-align: center;
+	margin: 0.8533rem auto 0.4666rem;
+}
+.talk-talk3-top>a{
+	display: block;
+	width: 4rem;
+	height: 0.9866rem;
+	line-height: 0.9866rem;
+	background: #df3031;	
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 0.4rem;
+	margin: 0 auto;
+}
+.talk-talk3-title1{
+	color: #a0a0a0;
+	font-size: 0.32rem;
+	width: 9.7334rem;
+	height: 0.8266rem;
+	line-height: 0.8266rem;
+	margin-left: 0.2666rem;
+}
+.talk-talk3-main{
+	width: 100%;
+	height: 7.4666rem;
+	padding-top: 0.1px;
+}
+.talk3-main1{
+	height: 1.8533rem;
+	line-height: 1.8533rem;
+	border-bottom: 1px solid #edeff3;
+	background: #fff;
+	position: relative;
+}
+.talk3-main1>img{
+	width: 1.3333rem;
+	margin-left: 0.2666rem;
+	margin-top: 0.24rem;
+}
+.talk3-main1>p{
+	height: 0.4266rem;
+	line-height: 0.4266rem;
+	font-size: 0.4rem;
+	color: #333;
+	position: absolute;
+	top: 0.4533rem;
+	left: 1.8666rem;
+}
+.talk3-main1>div{
+	height: 0.32rem;
+	line-height: 0.32rem;
+	color: #a6a6a6;
+	font-size: 0.2933rem;
+	position: absolute;
+	top: 1.0666rem;
+	left: 1.8666rem;
+}
+.talk3-main1>a{
+	border-radius: 50%;
+	width: 0.6666rem;
+	height: 0.6666rem;
+	line-height: 0.6666rem;
+	text-align: center;
+	background: #df3031;
+	font-size: 0.5rem;
+	color: #fff;
+	position: absolute;
+	right: 0.4rem;
+	top: 0.5733rem;
+}
+.talk-talk3-title2{
+	color: #a0a0a0;
+	font-size: 0.32rem;
+	width: 9.7334rem;
+	height: 0.8266rem;
+	line-height: 0.8266rem;
+	margin-left: 0.2666rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

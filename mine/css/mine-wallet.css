@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	overflow: auto;
+}
+header{
+	width: 100%;
+	height: 1.1733rem;
+	background-color: #df3031;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header>a{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 0.04rem solid #FFFFFF;
+	border-radius: 50%;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.4rem;
+	position: absolute;
+	top: 0.16rem;
+	left: 0.2666rem;
+}
+header>p{
+	color: #FFFFFF;
+	font-size: 0.4666rem;
+	position: absolute;
+	left:4.2rem;
+	top: 0.3rem;
+}
+.mine-wallet-main{
+	width: 100%;
+	position: absolute;
+	top: 1.1733rem;
+	bottom: 0;
+	background-color:#e7e7e7;
+	z-index: 9999;
+}
+.mine-wallet-btn{
+	width: 100%;
+	height: 2.6rem;
+	background-color: #df3031;
+	display: flex;
+}
+.mine-wallet-btn>a{
+	display: block;
+	width: 50%;
+	height: 2.6rem;
+}
+.mine-wallet-btn>a>figure{
+	width: 100%;
+	height: 2.6rem;
+	margin: 0;
+}
+.mine-wallet-btn>a>figure>img{
+	width: 35%;
+	margin:  0.2rem 1.6rem 0;
+	text-align: center;
+	
+}
+.mine-wallet-btn>a>figure>figcaption{
+	font-size: 0.36rem;
+	text-align: center;
+	color: #FFFFFF;
+}
+.mine-wallet-con{
+	margin-top: 0.2633rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.mine-wallet-con>div{
+	width: 3.3rem;
+	margin-top: 0.05rem;
+	height: 2.69rem;
+	background-color: #FFFFFF;
+}
+.mine-wallet-con>div>img{
+	display: block;
+	margin:0.25rem;
+	width: 2.9333rem;
+	
+}

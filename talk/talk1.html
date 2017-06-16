@@ -1,0 +1,153 @@
+
+<div class="talk-top {{active}}">
+	<div>
+		<a ui-sref="/news-search">
+			<figure>
+				<img src="./talk/img/fl.png.39x2147483647.75.auto.webp" />
+				<figcaption>法律</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a ui-sref="/news-search">
+			<figure>
+				<img src="./talk/img/jk_2.png.39x2147483647.75.auto.webp" />
+				<figcaption>健康</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a ui-sref="/news-search">
+			<figure>
+				<img src="./talk/img/qc.png.39x2147483647.75.auto.webp" />
+				<figcaption>汽车</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a ui-sref="/news-search">
+			<figure>
+				<img src="./talk/img/cj.png.39x2147483647.75.auto.webp" />
+				<figcaption>财经</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a ui-sref="/news-search">
+			<figure>
+				<img src="./talk/img/ls.png.39x2147483647.75.auto.webp" />
+				<figcaption>历史</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/sz.png.39x2147483647.75.auto.webp" />
+				<figcaption>时政</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/ty.png.39x2147483647.75.auto.webp" />
+				<figcaption>体育</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/js.png.39x2147483647.75.auto.webp" />
+				<figcaption>军事</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/ly.png.39x2147483647.75.auto.webp" />
+				<figcaption>旅游</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/fc.png.39x2147483647.75.auto.webp" />
+				<figcaption>房产</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/kj.png.39x2147483647.75.auto.webp" />
+				<figcaption>科技</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/jy.png.39x2147483647.75.auto.webp" />
+				<figcaption>教育</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/yl.png.39x2147483647.75.auto.webp" />
+				<figcaption>娱乐</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/sh.png.39x2147483647.75.auto.webp" />
+				<figcaption>生活</figcaption>
+			</figure>
+		</a>
+	</div>
+	<div>
+		<a href="javascrip:;">
+			<figure>
+				<img src="./talk/img/ss.png.39x2147483647.75.auto.webp" />
+				<figcaption>时尚</figcaption>
+			</figure>
+		</a>
+	</div>
+</div>
+<div class="talk-top-list" ng-click='talkClick()'>
+	<a href="javascript:;"><img class="talk-a {{rows}}" src="./talk/img/talk-down.png" /></a>
+</div>
+<div class="talk-main" ng-repeat="t in talkes">
+	<div class="talk-main-news">
+		<div class="talk-main-head"><img ng-src="{{t.head}}" /></div>
+		<h5>
+			{{t.title}}
+		</h5>
+		<img ng-src="{{t.img}}" />
+		<p>
+			{{t.text}}
+		</p>
+		<i><span>{{t.type}}</span>&nbsp; | &nbsp; <span>{{t.attention}}</span> 关注 &nbsp; | &nbsp; <span>{{t.question}}</span>提问</i>
+		<a href="javascript:;">＋关注</a>
+	</div>
+	
+	
+	
+</div>
+
+
+
+
+
+
+
+
+
+

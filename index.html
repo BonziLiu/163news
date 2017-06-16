@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<script src="lib/flexible.js" type="text/javascript" charset="utf-8"></script>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+	<script type="text/javascript" src="./lib/angular.min.js"></script>
+	<script src="lib/angular-ui.min.js"></script>
+	<script src="lib/angular-css.min.js"></script>
+	<script src="lib/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/bmob-min.js"></script>
+	<script src="lib/bmob.js"></script>
+	<script src="lib/bmobSocketIo-min.js"></script>
+	<script src="lib/bmobSocketIo.js"></script>
+	
+</head>
+<body>
+
+	<div  ui-view></div>
+
+	<footer>
+		<div ui-sref-active='clickafter'>
+			<a ui-sref='/news'>
+				<figure>	
+					<div class="news-btn">
+						
+					</div>
+					<figcaption>新闻</figcaption>
+				</figure>
+			</a>
+		</div>
+		
+		
+		
+		<div ui-sref-active='clickafter'>
+			<a ui-sref='/play'>
+				<figure>
+					<div class="play-btn">
+						
+					</div>
+					<figcaption>直播</figcaption>
+				</figure>
+			</a>
+		</div>
+		
+		<div ui-sref-active='clickafter'>
+			<a ui-sref="/talk">
+				<figure>
+					<div class="talk-btn">
+						
+					</div>
+					<figcaption>话题</figcaption>
+				</figure>
+			</a>
+		</div>
+		
+		<div ui-sref-active='clickafter'>
+			<a ui-sref="/mine">
+				<figure>
+					<div class="mine-btn">
+						
+					</div>
+					<figcaption>我</figcaption>
+				</figure>
+			</a>
+		</div>
+	
+	</footer>
+
+	
+	
+	
+    <script src="app.js"></script>
+	<script src="news/js/news.js"></script>
+	<script src="play/js/play.js"></script>
+	<script src="talk/js/talk.js"></script>
+	<script src="mine/js/mine.js"></script>
+	<script src="lib/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

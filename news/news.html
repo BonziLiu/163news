@@ -1,0 +1,23 @@
+<header>
+	<div>
+		<a ui-sref="/play"><img src="./news/img/news_left.png"/></a>	
+		<a ui-sref="/news-search"><img src="./news/img/news_right.png"/></a>
+	</div>
+</header>
+
+<div class="news-news">
+	<nav>
+		<div>
+			<div ng-repeat='n in narr'>
+				<a class="news-font" ng-click="test(n.index)" ui-sref-active="news-color" ui-sref="{{n.href}}">{{n.text}}</a>
+			</div>			
+			<span>+</span>
+		</div>
+		
+		
+	</nav>
+	
+	<div ui-view="newsed">
+		
+	</div>
+</div>

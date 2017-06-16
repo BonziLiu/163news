@@ -1,0 +1,40 @@
+<header>
+	<span>直播</span>
+</header>
+
+<div class="play-play">	
+	<div class="play-banner">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat='p in roplayImg'>
+		        	<img ng-src="{{p.image}}" />
+		        	<div class="play-banner-tip">			
+						<span>{{p.roomName}}</span>
+						<a href="javascript:;">直播预告</a>
+					</div>
+		        </div>		        
+		    </div>		  
+		</div>	
+	</div>
+		
+	<nav>
+		<h3>直播预告</h3>
+		<i><span>39</span>场<img src="./play/img/night_arrow.png" /></i>
+		<p><span>今10：00 /</span>【波士堂】 牛文文：得屌丝者得天下</p>
+	</nav>
+	
+	<div class="play-main" ng-repeat='d in req'>
+		<a href="javascript:;">
+			<p>{{d.title}}</p>
+			<img ng-src="{{d.img}}" />
+			<i>原创</i>
+			<span>2376.7参与</span>
+			<div>正在直播</div>
+			<b><img src="./play/img/movie_red.png" /></b>
+		</a>
+	</div>
+	
+	
+</div>
+	
+
